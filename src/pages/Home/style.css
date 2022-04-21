@@ -1,0 +1,41 @@
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container h1 {
+    text-align: center;
+    margin-top: 1rem;
+    padding: 1rem;
+    width: 30rem;
+    background-color: #13acbd;
+    border-radius: 5px;
+}
+
+.container h3 {
+    background-color: #5c5c5c;
+    width: 15rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+.container input {
+    margin: 1rem;
+    padding: 1rem;
+    width: 20rem;
+    border-radius: 5px;
+    background-color: #616161;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+}
+
+.container button {
+    margin-top: 2rem;
+    width: 20rem;
+    height: 3rem;
+    background: linear-gradient(45deg, #63c4c7, #802ad1 );
+    background-color: #616161;
+}
